@@ -524,7 +524,9 @@ html, body {
 	background-color: #121212;
 	color: #F5F5F5;
 }
-
+.fv_1_bg {
+clip-path: polygon(100% 8%, 8% 100%, 100% 100%);
+}
 .fv_2 {
 	background-color: #F05454;
 }
@@ -550,7 +552,7 @@ html, body {
 
 
 .container {
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y proximity;
 }
 
 
