@@ -508,7 +508,7 @@ html, body {
 
 .full-view {
 	height: 100vh;
-	overflow: hidden;
+	overflow: hidden ;
 	scroll-snap-align: center;
 }
 
@@ -524,9 +524,7 @@ html, body {
 	background-color: #121212;
 	color: #F5F5F5;
 }
-.fv_1_bg {
-clip-path: polygon(100% 8%, 8% 100%, 100% 100%);
-}
+
 .fv_2 {
 	background-color: #F05454;
 }
@@ -576,5 +574,16 @@ clip-path: polygon(100% 8%, 8% 100%, 100% 100%);
 
 	width: 500px;
 	height: calc(100% - 170px);
+
+}
+
+nav{
+	position: fixed;
+	top: 0;
+}
+
+.uk-container{
+	padding: 15vh 10vw;
+	border-style: dashed solid;
 
 }

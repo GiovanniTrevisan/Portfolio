@@ -2,18 +2,23 @@
 <html>
 
 <head>
+	<title>Giovanni Trevisan</title>
+
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Giovanni Trevisan</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="cards.css">
+
+
+	<link rel="stylesheet" href="css/uikit.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/cards.css"> -->
 	<link rel="stylesheet" type="text/css"
 		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<link
 		href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Cinzel:wght@700&family=Oswald:wght@600&display=swap"
 		rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 </head>
 
 <body>
@@ -29,26 +34,25 @@
 	<div class="container">
 
 		<!-- QUEM SOU? -->
-		
+
 		<div class="full-view fv_1">
-			<div class="text-center">
-				<h1>
-					Eu sou o GIOVANNI TREVISAN!
-				</h1>
-				<h2>
-					Sou apenas +1 apaixonado por Desenvolvimento e Tecnologia 😁
-				</h2>
-				<p>🙋‍♂️ Sobre mim</p>
-				<p>🔭 Atualmente trabalho com C# .NET</p>
-				<p>🌱 Estou estudando para me tornar um Desenvolvedor de Games me especializando na Unity Engine</p>
-				<p>😄 Pronomes: Ele/Dele</p>
-			</div>
-			<div style="background-image: 
-						url('https://media.folhadeirati.com.br/2021/02/1612186559-capa-800x445.png')"
-				 class="full-view fv_1_bg">
+			<div class=" uk-container">
+
+				<div class="text-center">
+					<h1>
+						Eu sou o GIOVANNI TREVISAN!
+					</h1>
+					<h2>
+						Sou apenas +1 apaixonado por Desenvolvimento e Tecnologia 😁
+					</h2>
+					<p>🙋‍♂️ Sobre mim</p>
+					<p>🔭 Atualmente trabalho com C# .NET</p>
+					<p>🌱 Estou estudando para me tornar um Desenvolvedor de Games me especializando na Unity Engine</p>
+					<p>😄 Pronomes: Ele/Dele</p>
+				</div>
 			</div>
 		</div>
-		<div class="full-view fv-almost fv_white">
+		<div class="full-view fv_white">
 
 			<!-- HABILIDADES -->
 			<div class="shadow-box text-center">
@@ -65,19 +69,47 @@
 			</div>
 		</div>
 
-		<div class="fv_1">
+		<div class="full-view fv_white">
 
 			<!-- PROJETOS  -->
-			
-			<h1>PROJETOS</h1>
 
-			<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 			
-			<section class="hero-section">
+			<div class="uk-container">
+				<h1>PROJETOS</h1>
+				<ul uk-accordion>
+					<li class="uk-open">
+						<a class="uk-accordion-title" href="#">DisturbVR</a>
+						<div class="uk-accordion-content">
+							<p>Virtual Reality Treatment</p>
+						</div>
+					</li>
+					<li>
+						<a class="uk-accordion-title" href="#">Contos: VALHALLA</a>
+						<div class="uk-accordion-content">
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+						</div>
+					</li>
+					<li>
+						<a class="uk-accordion-title" href="#">ROBOT TANK</a>
+						<div class="uk-accordion-content">
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+						</div>
+					</li>
+					<li>
+						<a class="uk-accordion-title" href="#">Doom Virus</a>
+						<div class="uk-accordion-content">
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+
+
+			<!-- <section class="hero-section">
 				<div class="card-grid">
 					<a class="card" href="#">
-						<div class="card__background"
-							style="background-image: url(images/DisturbVr_GAEL_card.jpg)">
+						<div class="card__background" style="background-image: url(images/DisturbVr_GAEL_card.jpg)">
 						</div>
 						<div class="card__content">
 							<p class="card__category">Virtual Reality Treatment</p>
@@ -85,15 +117,14 @@
 						</div>
 					</a>
 					<a class="card" href="#">
-						<div class="card__background"
-							style="background-image: url(images/Vikings_card_2.JPG)">
+						<div class="card__background" style="background-image: url(images/Vikings_card_2.JPG)">
 						</div>
 						<div class="card__content">
 							<p class="card__category">Jogos Digitais</p>
 							<h3 class="card__heading">Contos: VALHALLA</h3>
 						</div>
 					</a>
-					<!-- <a class="card" href="#">
+					<a class="card" href="#">
 						<div class="card__background"
 							style="background-image: url(images/ROBOT_TANK.jpg)">
 						</div>
@@ -101,10 +132,9 @@
 							<p class="card__category">Jogos Digitais</p>
 							<h3 class="card__heading">ROBOT TANK</h3>
 						</div>
-					</a> -->
+					</a>
 					<a class="card" href="#">
-						<div class="card__background"
-							style="background-image: url(images/Doom_virus_card_1.JPG)">
+						<div class="card__background" style="background-image: url(images/Doom_virus_card_1.JPG)">
 						</div>
 						<div class="card__content">
 							<p class="card__category">Jogos Digitais Mobile</p>
@@ -121,11 +151,11 @@
 						</div>
 					</a>
 				</div>
-			</section>
+			</section> -->
 
 		</div>
 
-		<div class="full-view fv-almost fv_white">
+		<div class="full-view fv_white">
 
 			<!-- PROJETOS ATUAIS -->
 			<div class="shadow-box text-center">
@@ -192,10 +222,13 @@
 		</div>
 	</div>
 	</div>
+	</div>
 
-
-
-	<script type="text/javascript" src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
